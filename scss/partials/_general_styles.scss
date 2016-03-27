@@ -119,6 +119,8 @@ $breakpoints: (
   box-sizing: border-box;
   width: 100%;
 
+
+
   @include respond-to('medium'){
     float: right;
     width: 50%;
@@ -128,6 +130,8 @@ $breakpoints: (
 .two-col-grid-floats .column-2{
   width: 100%;
   box-sizing: border-box;
+
+
 
   @include respond-to('medium'){
     float: left;
